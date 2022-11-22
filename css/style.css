@@ -33,6 +33,13 @@
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
+@media (max-width: 400px) {
+     #attendance_list .hidden {
+       width: 0 !important;
+       display: none !important;
+          }
+     }
+
 * {
      box-sizing: border-box !important;
 }
@@ -72,7 +79,7 @@ h6 {
      padding: 0 0 10px 0;
      font-weight: normal;
      line-height: normal;
-     color: #111111;
+     color: #ffffff;
      margin: 0
 }
 
@@ -139,7 +146,7 @@ p {
 }
 
 a {
-     color: #222222;
+     color: #ffffff;
      text-decoration: none;
      outline: none !important;
 }
@@ -495,6 +502,11 @@ ul.btn li:last-child {
      background: #11aeef;
      padding: 75px 0 90px 0;
 }
+@media (max-width:500px){
+     .banner_main{
+          background-color: #11aeef;
+     }
+}
 
 .text-bg {
      text-align: left;
@@ -519,6 +531,28 @@ ul.btn li:last-child {
      /* padding-bottom: 25px; */
      font-weight: bold;
 }
+@media (max-width:500px){
+     .text-bg{
+          color: rgb(255, 255, 255);
+          font-size: 50px;
+
+     }
+     .text-bg h1{
+          color: #fff;
+          /* padding-top: 50px; */
+          font-size: 50px;
+          line-height: 40px;
+          /* padding-bottom: 25px; */
+          font-weight: bold;
+     }
+     .text-bg h2{
+          color: rgb(255, 255, 255);
+          
+     }
+     .text-bg p{
+          color: rgb(255, 255, 255);
+     }
+}
 
 .text-bg p {
      font-size: 17px;
@@ -541,8 +575,15 @@ ul.btn li:last-child {
      margin: 0px;
 }
 
+
 .images_box figure img {
      width: 50%;
+     height: 100%;
+}
+@media (max-width:500px){
+     .images_box{
+          display: none;
+     }
 }
 
 .carousel-indicators li {
@@ -671,15 +712,15 @@ ul.btn li:last-child {
 .choose_bg {
      background: url(../images/why.jpg);
      position: a;
-     height: 800px;
+     height: 100%;
      /* padding: 120px 0; */
 }
 
 .choose .choose_box {
-     background: #fff;
+     background: rgba(255, 255, 255, 0);
      /* padding: 35px 35px; */
      text-align: center;
-     height: 100%;
+     /* height: 600px; */
 }
 
 .choose .choose_box span {
@@ -700,12 +741,13 @@ ul.btn li:last-child {
 }
 
 .choose .choose_box p {
-     color: #010a05;
+     color: #ffffff;
      font-size: 17px;
      line-height: 30px;
      font-weight: 500;
 }
 .text-left{
+     padding-left: 5%;
      width: auto;
      height: auto;
 }
@@ -1129,15 +1171,35 @@ ul.social_icon li a i:hover {
      height: 100%; */
      margin-top: 20px;
      margin-bottom: 20px;
-     background-image: url('../images/work_img.jpg');
-     width: auto;
+     /* background-image: url('../images/work_img.jpg'); */
+     background-image: url('../images/three_box.png');
+     width: 100%;
      height: auto;
      background-repeat: no-repeat;
      background-size: contain;
-     background-position: right bottom;
-     
+     background-position: center;
+     /* background-position: right bottom;     */
+}
+@media (max-width:500px){
+     .three_box{
+          background-image: none;
+          background-color: rgb(233, 233, 233);
+          all: none;
+
+     }
 }
 
+.threebox_set{
+     margin-top:3%; 
+     margin-bottom:20%;
+}
+
+/* .three_box_bg{
+     background-image: url('../images/three_box.png');
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: left top;    
+} */
 .const {
      padding: 100px 0 100px 0;
      /* background-image: ; */
@@ -1167,9 +1229,7 @@ ul.social_icon li a i:hover {
      /* top: 50%;
      left: 50%; */
      /* margin: -50px 0 0 -175px;  */
-
-
-     background-color: rgb(245, 247, 255);
+     background-color: rgba(217, 234, 69, 0.709);
 
 }
 .const p {
@@ -1191,8 +1251,8 @@ ul.social_icon li a i:hover {
 .testimonial {
      padding: 90px 0px 140px 0px;
      /* background: #fff; */
-     background-image: url('../images/me_bg/mem_bg3.png');
-     background-color:#ffffff;
+     /* background-image: url('../images/me_bg/mem_bg3.png'); */
+     background-color:#68cdff1d;
      width: auto;
      height: auto;
      background-repeat: no-repeat;
@@ -1220,7 +1280,12 @@ ul.social_icon li a i:hover {
 
 .test_box {
      padding: 40px 25px;
-     background: #141629;
+     background: #353b74;
+}
+@media (max-width:500px){
+     .name_aron{
+          display: none;
+     }
 }
 
 .testimonial_Carousel .test_box h4 {
