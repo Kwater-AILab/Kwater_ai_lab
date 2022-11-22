@@ -6,7 +6,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- mobile metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- <meta name="viewport" content="initial-scale=1, maximum-scale=1"> -->
       <!-- site metas -->
       <title>Kwater AILab</title>
       <meta name="keywords" content="">
@@ -37,6 +37,13 @@
 
       <!-- font 설정 google -->
       <style>@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');</style>
+
+      <!-- our project -->
+      <link rel="stylesheet" href="css/aron/templatemo-style.css" />
+
+      <!-- new_mem -->
+      <!-- <link rel="stylesheet" href="css/aron/style_me1.css"/> -->
+
 
    </head>
    <!-- body -->
@@ -101,6 +108,8 @@
             <ol class="carousel-indicators">
                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+
                <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
             </ol>
             <div class="carousel-inner">
@@ -116,7 +125,7 @@
                               </div>
                            </div>
                            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                              <div class="images_box">
+                              <div class="images_box hidden">
                                  <figure><img src="images/logo/MAIN_logo.png"></figure>
                               </div>
                            </div>
@@ -124,6 +133,32 @@
                      </div>
                   </div>
                </div>
+               <!-- 22222 -->
+               <div class="carousel-item">
+                  <div class="container-fluid ">
+                     <div class="carousel-caption" style="height: 550px ;">
+                        <div class="row">
+                           <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                              <div class="text-bg">
+                                 <h1>2022 제2회 K-water <br>AI 경진대회</h1>
+                                 <h2><br>수돗물 수요예측 AI 알고리즘 개발. </h2>
+                                 <p>※ 유량 등의 배수지 운영 자료를 활용하여 수돗물 수요예측을 위한 AI 모델 개발.</p>
+                                 <a class="read_more" href="https://aifactory.space/competition/detail/2143" target="_blank">Read more</a>
+                              </div>
+                           </div>
+                           <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                              <div class="images_box">
+                                 <figure>
+                                    <img src="./images/22년_제2회_k-water_AI_경진대회.jpg">
+                                 </figure>
+                                
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- 33333 -->
                <div class="carousel-item">
                   <div class="container-fluid ">
                      <div class="carousel-caption" style="height: 550px ;">
@@ -211,7 +246,7 @@
                   </div>
                </div>
 
-               <div class="row" style="margin-top:10%; margin-bottom:20%;">
+               <div class="row threebox_set">
                   <div class="col-md-4">
                      <div id="text_hover" class="const text_align_center">
                         <!-- <i><img src="images/ser2.png" alt="#"/></i> -->
@@ -263,7 +298,7 @@
                      <div class="col-md-12">
                         <div class="row">
                            <!-- 카테고리 -->
-                           <div class="list-group col-xl-3 col-lg-3 col-md-3 col-sm-12 padding_right" id="list-tab" role="tablist">
+                           <div class="list-group col-xl-3 col-lg-3 col-md-3 col-sm-12 padding_right" id="list-tab" role="tablist" style="margin-top:10%;">
                               <ul class="easy">
                                  <div class="list-group" id="list-tab" role="tablist">
                                     <a class="list-group-item list-group-item-action active font-center" id="list-pj1-list" data-toggle="list" href="#list-pj1" role="tab" aria-controls="pj1">위성자료를 활용한 유역-지점<br> 강우 신뢰도 개선</a>
@@ -278,103 +313,246 @@
                            <!-- 내용 -->
                            <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 padding_left tab-content" id="nav-tabContent">
                               <div class="choose_box tab-pane fade show active"id="list-pj1" role="tabpanel" aria-labelledby="list-pj1-list">
-                                 <div style="color: black ;border-top: solid 3px black; border-bottom: solid 3px black; font-size: 30px; padding: 10;" >
-                                    <h3>위성자료를 활용한 유역-지점 강우 신뢰도 개선  </h3>
-                                </div>
-                                <div class="text-left" style="border: 1px solid black; height: 100%; color: black; font-size: 18px; margin-top: 20px;">
-                                    <p>□ (개요 기간)‘22.01 ~ ’22.12 (물관리기획처 협업)</p>
-                                    <p>□ (주요 내용) AI기반 위성강우를 활용한 강우의 공간분포를 통해 강우관측 신뢰도 개선 
-                                        ① 적정 강우위성의 선정 → ② 데이터 전처리 → ③ 섬진강댐내 6개 지상관측소 AI모델 구축
-                                       → ④ 공간분포를 통한 유역평균강수량 비교</p>
-                                    <p>□ (성과물 및 활용)</p>  
-                                    <p style="margin-left: 2%;">○ 1차(4/28), 2차(7/1) 중간성과 회의, 3차(9/7) 성과회의를 통해 물관리기획처 의견수렴 및 보완사항 도출 <br>
-                                        ○ 위성영상의 데이터 전처리에서 AI모델구축까지 전과정에 대한 파이썬 코드 개발 <br>
-                                       * AI모델: 랜덤포레스트와 XGBoost 적용 <br>
-                                        ○ AI센터 공유 시스템(Git-Hub)내 탑재 및 솔루션 배포 검증 등 시행 </p>
-                                    <p>□ (보완, 향후 계획)</p>
-                                    <p style="margin-left: 2%; ">○ 물관리기획처 보완요청사항 (레이더강우와 비교, 댐유역평균강우량 재검토) 연말까지 보완 예정</p>
-                                </div>
-                                <button class="text_align_center" style="background: transparent; margin-top:5%;" onclick="window.open('https://github.com/Kwater-AILab/rainfall_distribution')"><i class="fa-brands fa-github fa-4x" ></i></button>
-                                
+                                 <div>
+                                    <ul class="cd-hero-slider mb-0 py-5">
+                                       <li class="px-3" data-page-no="1">
+                                           <div class="tm-border-top tm-border-bottom">
+                                             <div class="tm-bg-dark">
+                                               <h2 class="mb-3">위성자료를 활용한 유역-지점 강우 신뢰도 개선</h2>
+                                               
+                                                <p class="mb-1 text-left">
+                                                   □ (개요 기간)‘22.01 ~ ’22.12 (물관리기획처 협업) 
+                                                </p>
+                                                <p class="mb-1 text-left">
+                                                   □ (주요 내용) AI기반 위성강우를 활용한 강우의 공간분포를 통해 강우관측 신뢰도 개선<br>
+                                                    ① 적정 강우위성의 선정 → ② 데이터 전처리 → ③ 섬진강댐내 6개 지상관측소 AI모델 구축<br>
+                                                     → ④ 공간분포를 통한 유역평균강수량 비교</p>
+                                                <!-- <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ 군남댐 하류의 방류량 도달시간, 수위 실시간 자료의 시뮬레이션 예측 알고리즘 개발
+                                                </p> -->
+                                                <p class="mb-1 text-left">
+                                                   □ (성과물 및 활용)</p>
+                                                <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ 1차(4/28), 2차(7/1) 중간성과 회의, 3차(9/7) 성과회의를 통해 물관리기획처 <br>
+                                                   의견수렴 및 보완사항 도출 <br>
+                                                   ○ 위성영상의 데이터 전처리에서 AI모델구축까지 전과정에 대한 파이썬 코드 개발<br>
+                                                   * AI모델: 랜덤포레스트와 XGBoost 적용<br>
+                                                   ○ AI센터 공유 시스템(Git-Hub)내 탑재 및 솔루션 배포 검증 등 시행
+                                                </p>
+                                                <p class="mb-1 text-left">
+                                                   □ (보완, 향후 계획)
+                                                </p>
+                                                <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ 물관리기획처 보완요청사항 (레이더강우와 비교, 댐유역평균강우량 재검토)<br>
+                                                    연말까지 보완 예정
+                                                </p>
+
+                                             </div>
+                                           </div>
+                                           <div class="text-center">
+                                             <a href="https://github.com/Kwater-AILab/rainfall_distribution" target="_blank" data-page-no="2" class="btn btn-primary tm-intro-btn tm-page-link">
+                                               View Git-Hub
+                                             </a>
+                                         </div>            
+                                       </li>
+                                 </div>
                               </div>
                               <div class="choose_box tab-pane"id="list-pj2" role="tabpanel" aria-labelledby="list-pj2-list">
-                                 <div style="color: black ;border-top: solid 3px black; border-bottom: solid 3px black; font-size: 30px; padding: 10;" >
-                                    <h3>AI 기반 녹조 광역 모니터링 기술 개발</h3>
-                                </div>
-                                <div class="text-left" style="border: 1px solid black; height: 100%; color: black; font-size: 18px; margin-top: 20px;">
-                                    <p>□  (개요/기간)  ‘22.03 ~ ’22.11 (물환경계획처 협업)  </p>
-                                    <p>□  (주요 내용) 고해상도 위성영상과 머신러닝을 활용한 저수지 녹조 모니터링</p>
-                                    <p style="margin-left: 2%; ">○ Sentinel 위성 영상을 활용한 저수지(영주댐) 녹조 분포와 AI 맵핑 및 코드 개발 완료</p>
-                                    <p>□ (성과물 및 활용)</p>  
-                                    <p style="margin-left: 2%; ">○ 자체 공개 세미나(3.18), 임원보고 등(VP, 환경본부장 보고(3~4월)) <br>
-                                        ○ 파이썬 라이브러리 개발 솔루션화  <br>
-                                        ○ AI센터 공유 시스템(Git-Hub)내 탑재 및 솔루션 배포 검증 등 시행 </p>
-                                    <p>□ (보완, 향후 계획)</p>
-                                    <p style="margin-left: 2%; ">○ 현업(물환경계획처) 드론 활용 데이터 수집에 따른 보완 및 algae_monitoring 솔루션 적용 예정
-                                    </p>
-                                </div>
+                                 <div>
+                                    <ul class="cd-hero-slider mb-0 py-5">
+                                       <li class="px-3" data-page-no="1">
+                                          <div class="tm-border-top tm-border-bottom">
+                                             <div class="tm-bg-dark">
+                                                <h2 class="mb-3">AI 기반 녹조 광역 모니터링 기술 개발</h2>
+                                                
+                                                <p class="mb-1 text-left">
+                                                   □  (개요 기간)  ‘22.03 ~ ’22.11 (물환경계획처 협업) 
+                                                </p>
+                                                <p class="mb-1 text-left">
+                                                   □  (주요 내용) 고해상도 위성영상과 머신러닝을 활용한 저수지 녹조 모니터링 </p>
+                                                <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ Sentinel 위성 영상을 활용한 저수지(영주댐) 녹조 분포와 AI 맵핑 및 코드 개발 완료
+                                                </p>
+                                                <p class="mb-1 text-left">
+                                                   □ (성과물 및 활용)
+                                                </p>
+                                                <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ 파이썬 라이브러리 개발 솔루션화 <br>
+                                                   ○ AI센터 공유 시스템(Git-Hub)내 탑재 및 솔루션 배포 검증 등 시행 
+                                                </p>
+                                                <p class="mb-1 text-left">
+                                                   □ (보완, 향후 계획)
+                                                </p>
+                                                <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ 22년 홍수기 등 운영결과에 따른 성과 공유 및 피드백(~‘22년 말) 시행
+                                                </p>
+                                             </div>
+                                          </div>
+                                           <div class="text-center">
+                                             <a href="#0" data-page-no="2" class="btn btn-primary tm-intro-btn tm-page-link">
+                                               View Git-Hub
+                                             </a>
+                                         </div>            
+                                       </li>
+                                 </div>
                               </div>
                               <div class="choose_box tab-pane"id="list-pj3" role="tabpanel" aria-labelledby="list-pj3-list">
-                                 <div style="color: black ;border-top: solid 3px black; border-bottom: solid 3px black; font-size: 30px; padding: 10;" >
-                                    <h3>물수급 분석 생활용수 수요량 예측 알고리즘 개발</h3>
-                                </div>
-                                <div class="text-left" style="border: 1px solid black; height: 100%; color: black; font-size: 18px; margin-top: 20px;">
-                                    <p>□  (개요/기간)  ‘22.05 ~ ’22.11 (물관리기획처 협업)   </p>
-                                    <p>□  (주요 내용) 국가물관리기본계획 장래(목표년도 2035년) 물수급분석을 위한 인공지능을 활용한 생·공용수 수요패턴 예측연구(~’22.9)</p>
-                                    <p style="margin-left: 2%; ">○ 과거 시·군별 생·공용수 사용량 자료(‘91~’21, 30년, 월별)와 생·공용수 사용량에 영향을 줄 수 있는 다양한 영향인자(‘08~’21)의 시·군별 영향특성 분석<br>
-                                        ○ 장래인구와 기후변화 시나리오를 활용, AI기반 ’35년 생·공용수 수요예측</p>
-                                    <p>□ (성과물 및 활용)</p>  
-                                    <p style="margin-left: 2%; ">○ 시군별 영향인자 분석 EDA(Exploratory Data Analysis)분석 코드 개발<br>
-                                        ○ 11개 시계열분석방법을 통한 용수수요 예측 코드 개발 <br>
-                                         * ARIMA, SARIMA, Prophet, Lightgbm, DeepAR 등  <br>
-                                        ○ AI센터 공유 시스템(Git-Hub)내 탑재 및 솔루션 배포 검증 등 시행 </p>
-                                    <p>□ (보완, 향후 계획)</p>
-                                    <p style="margin-left: 2%; ">○ 물관리기획처와 협의를 통해 개발된 코드의 전국 162개 시·군 확대 적용 확대 방안 검토 및 추진 
-                                    </p>
-                                </div>
+                                 <div>
+                                    <ul class="cd-hero-slider mb-0 py-5">
+                                       <li class="px-3" data-page-no="1">
+                                          <div class="tm-border-top tm-border-bottom">
+                                             <div class="tm-bg-dark">
+                                                <h2 class="mb-3">물수급 분석 생활용수 수요량 예측 알고리즘 개발</h2>
+                                                
+                                                <p class="mb-1 text-left">
+                                                   □  (개요 기간)  ‘22.05 ~ ’22.11 (물관리기획처 협업)
+                                                </p>
+                                                <p class="mb-1 text-left">
+                                                   □  (주요 내용) 국가물관리기본계획 장래(목표년도 2035년) 물수급분석을 위한 인공지능을<br>
+                                                    활용한 생·공용수 수요패턴 예측연구(~’22.9) </p>
+                                                <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ 과거 시·군별 생·공용수 사용량 자료(‘91~’21, 30년, 월별)와 생·공용수 사용량에<br>
+                                                    영향을 줄 수 있는 다양한 영향인자(‘08~’21)의 시·군별 영향특성 분석<br>
+                                                   ○ 장래인구와 기후변화 시나리오를 활용, AI기반 ’35년 생·공용수 수요예측
+                                                </p>
+                                                <p class="mb-1 text-left">
+                                                   □ (성과물 및 활용)
+                                                </p>
+                                                <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ 시군별 영향인자 분석 EDA(Exploratory Data Analysis)분석 코드 개발 <br>
+                                                   ○ 11개 시계열분석방법을 통한 용수수요 예측 코드 개발 <br>
+                                                      * ARIMA, SARIMA, Prophet, Lightgbm, DeepAR 등  <br>
+                                                   ○ AI센터 공유 시스템(Git-Hub)내 탑재 및 솔루션 배포 검증 등 시행
+                                                </p>
+                                                <p class="mb-1 text-left">
+                                                   □ (보완, 향후 계획)
+                                                </p>
+                                                <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ 물관리기획처와 협의를 통해 개발된 코드의 전국 162개 시·군 확대 적용 확대 방안 검토 및 추진 
+                                                </p>
+                                             </div>
+                                          </div>
+                                           <div class="text-center">
+                                             <a href="#0" data-page-no="2" class="btn btn-primary tm-intro-btn tm-page-link">
+                                               View Git-Hub
+                                             </a>
+                                         </div>            
+                                       </li>
+                                 </div>
                               </div>
                               <div class="choose_box tab-pane"id="list-pj4" role="tabpanel" aria-labelledby="list-pj4-list">
-                                 <div style="color: black ;border-top: solid 3px black; border-bottom: solid 3px black; font-size: 30px; padding: 10;" >
-                                    <h3>수도계량기 동파 예측 알고리즘 개발 </h3>
-                                </div>
-                                <div class="text-left" style="border: 1px solid black; height: 100%; color: black; font-size: 18px; margin-top: 20px;">
-                                    <p>□(과업 기간)  ‘22.02 ~ ’22.09 (유역수도지원처 협업) </p>
-                                    <p>□ (주요 내용) 미 계측 지역에 대한 가상 센서(Virtual Sensing)개념의 동파 예측 서비스 제공 기반 마련 및 기존 센서 이상 감지 등 적용</p>
-                                    <p style="margin-left: 2%; ">○ 계측자료(기상, 지형 등)를 특성별 구분(그룹화)하여, 예측 모델식을 개발</p>
-                                    <p>□ (성과물 및 활용)</p>  
-                                    <p style="margin-left: 2%; ">○ 자체 공개 세미나(3.18), 자료 확보 및 공유를 위한 공동 기술 세미나 및 성과보고 워크숍(6월) <br>
-                                        ○ 전문가 자문(9.4) 및 개선/보완 사항 검토 <br>
-                                        ○ 파이썬 라이브러리 개발 솔루션 현업 제공 <br>
-                                        ○ 성과물 가시화를 위한 Web-App 개발 및 내부 배포 </p>
-                                    <p style="margin-left: 2%; "> ○ 시스템 고도화 및 신규 계측 데이터 반영 검증 수행 <br>
-                                        - 운영 데이터를 활용한 지속적/주기적 AI학습 방안, 확률 예측 등 검토
-                                    </p>
-                                </div>
+                                 <div>
+                                    <ul class="cd-hero-slider mb-0 py-5">
+                                       <li class="px-3" data-page-no="1">
+                                          <div class="tm-border-top tm-border-bottom">
+                                             <div class="tm-bg-dark">
+                                                <h2 class="mb-3">수도계량기 동파 예측 알고리즘 개발</h2>
+                                                
+                                                <p class="mb-1 text-left">
+                                                   □(과업 기간)  ‘22.02 ~ ’22.09 (유역수도지원처 협업)
+                                                </p>
+                                                <p class="mb-1 text-left">
+                                                   □  (주요 내용)  미 계측 지역에 대한 가상 센서(Virtual Sensing)개념의 동파 예측 서비스
+                                                   <br> 제공 기반 마련 및 기존 센서 이상 감지 등 적용 </p>
+                                                <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ 계측자료(기상, 지형 등)를 특성별 구분(그룹화)하여, 예측 모델식을 개발
+                                                </p>
+                                                <p class="mb-1 text-left">
+                                                   □ (성과물 및 활용)
+                                                </p>
+                                                <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ 전문가 자문(9.4) 및 개선/보완 사항 검토 <br>
+                                                   ○ 파이썬 라이브러리 개발 솔루션 현업 제공 <br>
+                                                   ○ 성과물 가시화를 위한 Web-App 개발 및 내부 배포
+
+                                                </p>
+                                                <p class="mb-1 text-left">
+                                                   □ (보완, 향후 계획)
+                                                </p>
+                                                <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ 시스템 고도화 및 신규 계측 데이터 반영 검증 수행<br>
+                                                   - 운영 데이터를 활용한 지속적/주기적 AI학습 방안, 확률 예측 등 검토
+                                                </p>
+                                             </div>
+                                          </div>
+                                           <div class="text-center">
+                                             <a href="#0" data-page-no="2" class="btn btn-primary tm-intro-btn tm-page-link">
+                                               View Git-Hub
+                                             </a>
+                                         </div>            
+                                       </li>
+                                 </div>
                               </div>
                               <div class="choose_box tab-pane"id="list-pj5" role="tabpanel" aria-labelledby="list-pj5-list">
-                                 <div style="color: black ;border-top: solid 3px black; border-bottom: solid 3px black; font-size: 30px; padding: 10;" >
-                                    <h3>임진강 수계 수위예측 알고리즘 S/W 고도화  </h3>
-                                </div>
-                                <div class="text-left" style="border: 1px solid black; height: 100%; color: black; font-size: 18px; margin-top: 20px;">
-                                    <p>□ (개요/기간)  ‘21.07 ~ ’22.06 </p>
-                                    <p>□ (주요 내용) 북한댐(황강) 댐 방류 및 극한 홍수 등에 대응한 하류 지역의 수위 예측 기술 개발</p>
-                                    <p style="margin-left: 2%; ">○ 군남댐 하류의 방류량 도달시간, 수위 실시간 자료의 시뮬레이션 예측 알고리즘 개발</p>
-                                    <p>□ (성과물 및 활용)</p>  
-                                    <p style="margin-left: 2%; ">○ 홍수통제소 자료 기반으로 실시간 수위 예측을 위한 프로그램(C#) 개발 <br>
-                                        ○ 데이터기반 하천 수위예측 S/W 개발성과 현장 적용을 위한 배포 및 시범 운영(연천포전권 지사) </p>
-                                     
-                                    <p>□ (보완, 향후 계획)</p>
-                                    <p style="margin-left: 2%; ">○ 22년 홍수기 등 운영결과에 따른 성과 공유 및 피드백(~‘22년 말) 시행
-                                    </p>
-                                </div>
+                                 <div>
+                                    <ul class="cd-hero-slider mb-0 py-5">
+                                       <li class="px-3" data-page-no="1">
+                                           <div class="tm-border-top tm-border-bottom">
+                                             <div class="tm-bg-dark">
+                                               <h2 class="mb-3">임진강 수계 수위예측 알고리즘 S/W 고도화</h2>
+                                               
+                                               <p class="mb-1 text-left">
+                                                □ (개요 기간) ‘21.07 ~ ’22.06 </p>
+                                                <p class="mb-1 text-left">
+                                                □ (주요 내용) 북한댐(황강) 댐 방류 및 극한 홍수 등에 대응한 하류 지역의 수위 예측 기술 개발 </p>
+                                                <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ 군남댐 하류의 방류량 도달시간, 수위 실시간 자료의 시뮬레이션 예측 알고리즘 개발</p>
+                                                 <p class="mb-1 text-left">
+                                                   □ (성과물 및 활용)</p>
+                                                   <p class="mb-2 text-left" style="margin-left: 2%">
+                                                      ○ 홍수통제소 자료 기반으로 실시간 수위 예측을 위한 프로그램(C#) 개발 <br>
+                                                      ○ 데이터기반 하천 수위예측 S/W 개발성과 현장 적용을 위한 배포 및 시범 운영(연천포전권)</p>
+                                                    <p class="mb-1 text-left">
+                                                      □ (보완, 향후 계획)</p>
+                                                   <p class="mb-2 text-left" style="margin-left: 2%">
+                                                      ○ 22년 홍수기 등 운영결과에 따른 성과 공유 및 피드백(~‘22년 말) 시행</p>
+                                             </div>
+                                           </div>
+                                           <div class="text-center">
+                                             <a href="#0" data-page-no="2" class="btn btn-primary tm-intro-btn tm-page-link">
+                                               View Git-Hub
+                                             </a>
+                                         </div>            
+                                       </li>
+                                 </div>
                               </div>
                               <div class="choose_box tab-pane"id="list-pj6" role="tabpanel" aria-labelledby="list-pj6-list">
-                                 <!-- <i><img src="images/admin.png" alt="#"/></i>
-                                 <h3> Ad Minim</h3> -->
-                                 <div  style="color: black ;border-top: solid 3px black; border-bottom: solid 3px black; font-size: 30px; padding: 10;" >
-                                    <h3>준비중</h3>
-                                </div>
+                                 <div>
+                                    <ul class="cd-hero-slider mb-0 py-5">
+                                       <li class="px-3" data-page-no="1">
+                                           <div class="tm-border-top tm-border-bottom">
+                                             <div class="tm-bg-dark">
+                                               <h2 class="mb-3">준비중</h2>
+                                               
+                                               <!-- <p class="mb-1 text-left">
+                                                □ (개요 기간) ‘21.07 ~ ’22.06 </p>
+                                                <p class="mb-1 text-left">
+                                                □ (주요 내용) 북한댐(황강) 댐 방류 및 극한 홍수 등에 대응한 하류 지역의 수위 예측 기술 개발 </p>
+                                                <p class="mb-2 text-left" style="margin-left: 2%">
+                                                   ○ 군남댐 하류의 방류량 도달시간, 수위 실시간 자료의 시뮬레이션 예측 알고리즘 개발
+                                                 </p>
+                                                 <p class="mb-1 text-left">
+                                                   □ (성과물 및 활용)</p>
+                                                   <p class="mb-2 text-left" style="margin-left: 2%">
+                                                      ○ 홍수통제소 자료 기반으로 실시간 수위 예측을 위한 프로그램(C#) 개발 <br>
+                                                      ○ 데이터기반 하천 수위예측 S/W 개발성과 현장 적용을 위한 배포 및 시범 운영(연천포전권) 
+                                                    </p>
+                                                    <p class="mb-1 text-left">
+                                                      □ (보완, 향후 계획)
+                                                   </p>
+                                                   <p class="mb-2 text-left" style="margin-left: 2%">
+                                                      ○ 22년 홍수기 등 운영결과에 따른 성과 공유 및 피드백(~‘22년 말) 시행
+                                                    </p> -->
 
+                                             </div>
+                                           </div>
+                                           <div class="text-center">
+                                             <a href="#0" data-page-no="2" class="btn btn-primary tm-intro-btn tm-page-link">
+                                               View Git-Hub
+                                             </a>
+                                         </div>            
+                                       </li>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -393,19 +571,14 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-12">
-                     <div id="myCarousel" class="carousel slide testimonial_Carousel " data-ride="carousel">
+                     <div id="myCarouse2" class="carousel slide testimonial_Carousel" data-ride="carousel">
                         <ol class="carousel-indicators">
-                           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                           <li data-target="#myCarousel" data-slide-to="1"></li>
-                           <li data-target="#myCarousel" data-slide-to="3"></li>
-                           <li data-target="#myCarousel" data-slide-to="4"></li>
-                           <li data-target="#myCarousel" data-slide-to="5"></li>
-                           <li data-target="#myCarousel" data-slide-to="6"></li>
-                           <!-- <li data-target="#myCarousel" data-slide-to="7"></li>
-                           <li data-target="#myCarousel" data-slide-to="8"></li>
-                           <li data-target="#myCarousel" data-slide-to="9"></li>
-                           <li data-target="#myCarousel" data-slide-to="10"></li>
-                           <li data-target="#myCarousel" data-slide-to="11"></li> -->
+                           <li data-target="#myCarouse2" data-slide-to="0" class="active"></li>
+                           <li data-target="#myCarouse2" data-slide-to="1"></li>
+                           <li data-target="#myCarouse2" data-slide-to="2"></li>
+                           <li data-target="#myCarouse2" data-slide-to="3"></li>
+                           <li data-target="#myCarouse2" data-slide-to="4"></li>
+                           <li data-target="#myCarouse2" data-slide-to="5"></li>
                         </ol>
                         <div class="carousel-inner">
                            <div class="carousel-item active">
@@ -415,11 +588,15 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 김성훈 (센터장)</h4>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-                                                <br>ㆍ 입사일: 2010.03.29
+                                             <p>
+                                                ㆍ 입사일: 2010.03.29
                                                 <br>ㆍ 연락처(회사): 042-870-7332
                                                 <br>ㆍ 이메일: sunghoonkim@kwater.or.kr
                                                 <br>ㆍ 학위자격: 공학박사(수리수문) 
+                                             </p>
+
+                                             <p class="name_aron" style="line-height:1.5 ;">
+
                                                 <div class="name_aron">
                                                     <p style="color:#fff ;" >
                                                         - 전문분야
@@ -440,11 +617,14 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 김정호 (차장)</h4>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-                                                <br>ㆍ 입사일: 1992.01.29
+                                             <p>
+                                                ㆍ 입사일: 1992.01.29
                                                 <br>ㆍ 연락처(회사): 042-870-7335
                                                 <br>ㆍ 이메일: kjho@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 전산학사, 경영학석사
+                                             </p>
+                                             <p class="name_aron" style="line-height:1.5 ;">
+
                                                 <div class="name_aron">
                                                     <p style="color:#fff ;" >
                                                         - 전문분야
@@ -473,11 +653,14 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 이호현 (수석위원)</h4>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-                                                <br>ㆍ 입사일: 1998.01.05
+                                             <p>
+                                                ㆍ 입사일: 1998.01.05
                                                 <br>ㆍ 연락처(회사): 042-670-7682
                                                 <br>ㆍ 이메일: lhh@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 공학박사(제어공학)
+                                             </p>
+                                             <p class="name_aron" style="line-height:1.5 ;">
+
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -498,25 +681,28 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 :정희진 (차장)</h4>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-                                                <br>ㆍ 입사일: 2005.06.28
+                                             <p>
+                                                ㆍ 입사일: 2005.06.28
                                                 <br>ㆍ 연락처(회사): 042-870-7683
                                                 <br>ㆍ 이메일: heejin.chung@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 석사(산업계측제어), 기사(정보처리), CISA
-                                                <div class="name_aron">
-                                                      <p style="color:#fff ;" >
-                                                         - 전문분야
-                                                         <br>계측제어시스템, 수처리 공정제어 기술
-                                                         <br>수도 분야 인공지능 적용
-                                                         <br>물관리 ICT 및 AI 적용 자문 등 
-                                                      </p>
-                                                      <p class="">
-                                                         - 연구과제
-                                                         <br>정수 및 배출수처리 공정 인공지능 알고리즘 개발
-                                                         <br>컴퓨터 비전 기술을 이용한 댐 결함검출
-                                                         <br>&nbsp; 
-                                                </div>
-                                                </p>        
+                                             </p>
+                                             <p class="name_aron" style="line-height:1.5 ;">
+
+                                                   <div class="name_aron">
+                                                         <p style="color:#fff ;" >
+                                                            - 전문분야
+                                                            <br>계측제어시스템, 수처리 공정제어 기술
+                                                            <br>수도 분야 인공지능 적용
+                                                            <br>물관리 ICT 및 AI 적용 자문 등 
+                                                         </p>
+                                                         <p class="">
+                                                            - 연구과제
+                                                            <br>정수 및 배출수처리 공정 인공지능 알고리즘 개발
+                                                            <br>컴퓨터 비전 기술을 이용한 댐 결함검출
+                                                            <br>&nbsp; 
+                                                         </p> 
+                                                   </div>
                                              </p>
                                           </div>
                                        </div>
@@ -531,11 +717,14 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명: 최영돈 (책임연구원)</h4>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-                                                <br>ㆍ 입사일: 2003.02.24
+                                             <p>
+                                                ㆍ 입사일: 2003.02.24
                                                 <br>ㆍ 연락처(회사): 042-870-7623
                                                 <br>ㆍ 이메일: sunghoonkim@kwater.or.kr
                                                 <br>ㆍ 학위자격: 박사(University of Virginia)
+                                             </p>
+                                             <p class="name_aron" style="line-height:1.5 ;">
+
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -556,11 +745,13 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 정지영 (책임위원)</h4>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-                                                <br>ㆍ 입사일: 2010.03.29
+                                             <p>
+                                                ㆍ 입사일: 2010.03.29
                                                 <br>ㆍ 연락처(회사): 042-870-7334
                                                 <br>ㆍ 이메일: jyjung@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 석사(지역환경토목), SCJP
+                                             </p>
+                                             <p class="name_aron" style="line-height:1.5 ;">
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -589,11 +780,13 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 :김용섭 (대리)</h4>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-                                                <br>ㆍ 입사일: 2017.12.30
+                                             <p>
+                                                ㆍ 입사일: 2017.12.30
                                                 <br>ㆍ 연락처(회사): 042-870-7337
                                                 <br>ㆍ 이메일: seobiya@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 학사(컴퓨터정보학), 기사(정보처리)
+                                             </p>
+                                             <p class="name_aron" style="line-height:1.5 ;">
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -614,11 +807,13 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 주경원 (선임연구) </h4>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-                                                <br>ㆍ 입사일: 2022.07.11
+                                             <p>
+                                                ㆍ 입사일: 2022.07.11
                                                 <br>ㆍ 연락처(회사): 042-870-7340
                                                 <br>ㆍ 이메일: kwjoo@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 공학박사(토목환경공학과)
+                                             </p>
+                                             <p class="name_aron" style="line-height:1.5 ;">
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -647,11 +842,13 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 이소령 (사원)</h4>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-                                                <br>ㆍ 입사일: 2022.07.11
+                                             <p>
+                                                ㆍ 입사일: 2022.07.11
                                                 <br>ㆍ 연락처(회사): 042-870-7341
                                                 <br>ㆍ 이메일: wjellygom@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 학사(프랑스문화, 융합소프트웨어), 기사(정보처리), SQLD
+                                             </p>
+                                             <p class="name_aron" style="line-height:1.5 ;">
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -672,11 +869,13 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 장현준 (사원)</h4>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-                                                <br>ㆍ 입사일: 2022.03.02
+                                             <p>
+                                                ㆍ 입사일: 2022.03.02
                                                 <br>ㆍ 연락처(회사): 042-870-7685
                                                 <br>ㆍ 이메일: gapple95@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 석사(컴퓨터공학과)
+                                             </p>
+                                             <p class="name_aron" style="line-height:1.5 ;">
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -705,11 +904,13 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 이아론 (사원)</h4>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-                                                <br>ㆍ 입사일: 2022.05.02
+                                             <p>
+                                                ㆍ 입사일: 2022.05.02
                                                 <br>ㆍ 연락처(회사): 042-870-7333
                                                 <br>ㆍ 이메일: leearon@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 학사(컴퓨터공학과), 기사(정보처리)
+                                             </p>
+                                             <p class="name_aron" style="line-height:1.5 ;">
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -740,11 +941,11 @@
                               </div>
                            </div>
                         </div>
-                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#myCarouse2" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#myCarouse2" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                         </a>
@@ -753,6 +954,9 @@
                </div>
             </div>
          </div>
+         <!-- test -->
+         
+         <!-- end_test -->
          <!--  footer -->
          <footer>
             <!-- <div class="footer">
@@ -863,6 +1067,8 @@
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
+
+      <!-- <script src="js/aron/main_me1.js"></script> -->
 
 
    </body>
