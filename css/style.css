@@ -444,13 +444,24 @@ ul.btn li:last-child {
 .down_btn {
      padding-left: 50px;
 }
+@media (max-width:500px){
+     .down_btn{
+          background-color: #11aeef;
+          padding: 0px -10px;
+          border-radius: 0px;
+          font-size: 10px;
+          /* padding-left: 10%; */
+          text-align: center;
+     }
+}
 
 .down_btn a {
-     background-color: #fff;
-     display: inline-block;
-     padding: 7px 35px;
+     /* background-color: #fff; */
+     background-color: #11aeef;
+     /* display: inline-block; */
+     padding: 0px 10px;
      border-radius: 10px;
-     color: #010a05 !important;
+     color: #ffffff !important;
      font-size: 17px;
 }
 
@@ -459,8 +470,25 @@ ul.btn li:last-child {
      background: #000;
 }
 
-
-/*-- header area --*/
+a#topBtn { 
+     background-color: rgba(151, 151, 151, 0.63);
+     position: fixed; /* 포지션 고정 */ 
+     right: 2%; /* 오른쪽에서 2% - %도 할수 있음*/ 
+     bottom: 5px; /* 밑에서 5px */ 
+     display: none; /* 보여지지 없음 - 기본적으로 안보여지게 */ 
+     z-index: 9999; /* 포지션을 먼저 지정후 z-좌표(레이어) : 9999입니다. */ 
+     } 
+@media (max-width:500px){
+     a#topBtn{
+          background-color: rgba(151, 151, 151, 0.63);
+          position: fixed; /* 포지션 고정 */ 
+          right: 5%; /* 오른쪽에서 2% - %도 할수 있음*/ 
+          bottom: 5px; /* 밑에서 5px */ 
+          display: none; /* 보여지지 없음 - 기본적으로 안보여지게 */ 
+          z-index: 9999; /* 포지션을 먼저 지정후 z-좌표(레이어) : 9999입니다. */ 
+     }
+}
+ /*-- header area --*/
 
 
 /*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
