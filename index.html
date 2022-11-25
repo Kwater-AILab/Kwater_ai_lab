@@ -44,31 +44,19 @@
       <!-- new_mem -->
       <!-- <link rel="stylesheet" href="css/aron/style_me1.css"/> -->
 
-
    </head>
    <!-- body -->
    <body class="main-layout">
+      <a id="topBtn" href="#">TOP</a>
+      
       <!-- loader  -->
       <!-- <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="#" /></div>
       </div> -->
       <!-- end loader -->
-      <div class="wrapper">
+      <!-- <div class="wrapper"> -->
       <!-- end loader -->
-      <div class="sidebar">
          <!-- Sidebar  -->
-         <nav id="sidebar">
-            <div id="dismiss">
-               <i class="fa fa-arrow-left"></i>
-            </div>
-            <ul class="list-unstyled components">
-               <li class="active"> <a href="#">Home</a> </li>
-               <li><a href="#about">About </a> </li>
-               <li><a href="#work">Work</a> </li>
-               <li><a href="#contact">Contact </a> </li>
-            </ul>
-         </nav>
-      </div>
       <div id="content">
          <!-- header -->
          <header>
@@ -87,12 +75,20 @@
                      </div>
                      <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
                         <ul class="btn">
-                           <!-- <li class="down_btn"><a href="#">go git</a></li> -->
+                           <!-- <li class="down_btn"><a href="https://github.com/Kwater-AILab" target="_blank">go git</a></li> -->
                            <!-- <li><a href="#">Sign Up</a></li> -->
                            <!-- <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li> -->
+                           <!--  오른쪽 상단 메뉴 -->
                            <li><button type="button" id="sidebarCollapse">
-                              <img src="images/menu_icon.png" alt="#" />
+                              <!-- <img src="images/menu_icon.png" alt="#" /> -->
+                                 
                               </button>
+                              <nav class="down_btn">
+                                 <a href="https://github.com/Kwater-AILab" target="_blank">go git</a>
+                                 <a href="#work">Seminal</a> 
+                                 <a href="#contact">Project</a>
+                                 <a href="#about">Member</a>
+                               </nav>
                            </li>
                         </ul>
                      </div>
@@ -109,7 +105,6 @@
                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                <li data-target="#myCarousel" data-slide-to="1"></li>
                <li data-target="#myCarousel" data-slide-to="2"></li>
-
                <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
             </ol>
             <div class="carousel-inner">
@@ -141,17 +136,14 @@
                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                               <div class="text-bg">
                                  <h1>2022 제2회 K-water <br>AI 경진대회</h1>
-                                 <h2><br>수돗물 수요예측 AI 알고리즘 개발. </h2>
-                                 <p>※ 유량 등의 배수지 운영 자료를 활용하여 수돗물 수요예측을 위한 AI 모델 개발.</p>
+                                 <h2 style="margin-top:-5%;"><br>수돗물 수요예측 AI 알고리즘 개발. </h2>
+                                 <p>※ 유량 등의 배수지 운영 자료를 활용하여 수돗물 수요예측을 위한 AI 모델 개발.<br></p>
                                  <a class="read_more" href="https://aifactory.space/competition/detail/2143" target="_blank">Read more</a>
                               </div>
                            </div>
                            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                              <div class="images_box">
-                                 <figure>
-                                    <img src="./images/22년_제2회_k-water_AI_경진대회.jpg">
-                                 </figure>
-                                
+                              <div class="images_box" style="height:100%;">
+                                <img src="./images/22년_제2회_k-water_AI_경진대회.jpg" style="max-width:100%; height: 550px; ;">
                               </div>
                            </div>
                         </div>
@@ -168,7 +160,7 @@
                                  <h1>Newsletter</h1>
                                  <h2><br>AI 소식을 알고 싶으세요? <br>AI Newsletter 1호 를 확인해 보세요. </h2>
                                  <p>※ k-water연구원 연구관리처 AI연구센터에서<br> 정기적으로 발간하는 뉴스레터입니다.<br></p>
-                                 <a class="read_more" href="./news/AI_Newsletter_창간호.pdf" target="_blank">Read more</a>
+                                 <a class="read_more" href="https://github.com/Kwater-AILab/AI_NewsLetter" target="_blank">Read more</a>
                               </div>
                            </div>
                            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
@@ -246,7 +238,7 @@
                   </div>
                </div>
 
-               <div class="row threebox_set">
+               <div class="row" style="margin-top:3%; margin-bottom:20%;">
                   <div class="col-md-4">
                      <div id="text_hover" class="const text_align_center">
                         <!-- <i><img src="images/ser2.png" alt="#"/></i> -->
@@ -286,19 +278,19 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-12">
-                     <div class="titlepage">
+                     <div class="titlepage" id="contact">
                         <h2>Our <span class="blu"> Project</span></h2>
                      </div>
                   </div>
                </div>
             </div>
-            <div class="choose_bg">
+            <div class="choose_bg" >
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
                         <div class="row">
                            <!-- 카테고리 -->
-                           <div class="list-group col-xl-3 col-lg-3 col-md-3 col-sm-12 padding_right" id="list-tab" role="tablist" style="margin-top:10%;">
+                           <div class="list-group col-xl-3 col-lg-3 col-md-3 col-sm-12 padding_right" id="list-tab" role="tablist" style="margin-top:10%">
                               <ul class="easy">
                                  <div class="list-group" id="list-tab" role="tablist">
                                     <a class="list-group-item list-group-item-action active font-center" id="list-pj1-list" data-toggle="list" href="#list-pj1" role="tab" aria-controls="pj1">위성자료를 활용한 유역-지점<br> 강우 신뢰도 개선</a>
@@ -605,15 +597,11 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 김성훈 (센터장)</h4>
-                                             <p>
-                                                ㆍ 입사일: 2010.03.29
+                                             <p class="name_aron" style="line-height:1.5 ;">
+                                                <br>ㆍ 입사일: 2010.03.29
                                                 <br>ㆍ 연락처(회사): 042-870-7332
                                                 <br>ㆍ 이메일: sunghoonkim@kwater.or.kr
                                                 <br>ㆍ 학위자격: 공학박사(수리수문) 
-                                             </p>
-
-                                             <p class="name_aron" style="line-height:1.5 ;">
-
                                                 <div class="name_aron">
                                                     <p style="color:#fff ;" >
                                                         - 전문분야
@@ -634,14 +622,11 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 김정호 (차장)</h4>
-                                             <p>
-                                                ㆍ 입사일: 1992.01.29
+                                             <p class="name_aron" style="line-height:1.5 ;">
+                                                <br>ㆍ 입사일: 1992.01.29
                                                 <br>ㆍ 연락처(회사): 042-870-7335
                                                 <br>ㆍ 이메일: kjho@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 전산학사, 경영학석사
-                                             </p>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-
                                                 <div class="name_aron">
                                                     <p style="color:#fff ;" >
                                                         - 전문분야
@@ -670,14 +655,11 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 이호현 (수석위원)</h4>
-                                             <p>
-                                                ㆍ 입사일: 1998.01.05
+                                             <p class="name_aron" style="line-height:1.5 ;">
+                                                <br>ㆍ 입사일: 1998.01.05
                                                 <br>ㆍ 연락처(회사): 042-670-7682
                                                 <br>ㆍ 이메일: lhh@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 공학박사(제어공학)
-                                             </p>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -698,28 +680,25 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 :정희진 (차장)</h4>
-                                             <p>
-                                                ㆍ 입사일: 2005.06.28
+                                             <p class="name_aron" style="line-height:1.5 ;">
+                                                <br>ㆍ 입사일: 2005.06.28
                                                 <br>ㆍ 연락처(회사): 042-870-7683
                                                 <br>ㆍ 이메일: heejin.chung@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 석사(산업계측제어), 기사(정보처리), CISA
-                                             </p>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-
-                                                   <div class="name_aron">
-                                                         <p style="color:#fff ;" >
-                                                            - 전문분야
-                                                            <br>계측제어시스템, 수처리 공정제어 기술
-                                                            <br>수도 분야 인공지능 적용
-                                                            <br>물관리 ICT 및 AI 적용 자문 등 
-                                                         </p>
-                                                         <p class="">
-                                                            - 연구과제
-                                                            <br>정수 및 배출수처리 공정 인공지능 알고리즘 개발
-                                                            <br>컴퓨터 비전 기술을 이용한 댐 결함검출
-                                                            <br>&nbsp; 
-                                                         </p> 
-                                                   </div>
+                                                <div class="name_aron">
+                                                      <p style="color:#fff ;" >
+                                                         - 전문분야
+                                                         <br>계측제어시스템, 수처리 공정제어 기술
+                                                         <br>수도 분야 인공지능 적용
+                                                         <br>물관리 ICT 및 AI 적용 자문 등 
+                                                      </p>
+                                                      <p class="">
+                                                         - 연구과제
+                                                         <br>정수 및 배출수처리 공정 인공지능 알고리즘 개발
+                                                         <br>컴퓨터 비전 기술을 이용한 댐 결함검출
+                                                         <br>&nbsp; 
+                                                </div>
+                                                </p>        
                                              </p>
                                           </div>
                                        </div>
@@ -734,14 +713,11 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명: 최영돈 (책임연구원)</h4>
-                                             <p>
-                                                ㆍ 입사일: 2003.02.24
+                                             <p class="name_aron" style="line-height:1.5 ;">
+                                                <br>ㆍ 입사일: 2003.02.24
                                                 <br>ㆍ 연락처(회사): 042-870-7623
                                                 <br>ㆍ 이메일: sunghoonkim@kwater.or.kr
                                                 <br>ㆍ 학위자격: 박사(University of Virginia)
-                                             </p>
-                                             <p class="name_aron" style="line-height:1.5 ;">
-
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -762,13 +738,11 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 정지영 (책임위원)</h4>
-                                             <p>
-                                                ㆍ 입사일: 2010.03.29
+                                             <p class="name_aron" style="line-height:1.5 ;">
+                                                <br>ㆍ 입사일: 2010.03.29
                                                 <br>ㆍ 연락처(회사): 042-870-7334
                                                 <br>ㆍ 이메일: jyjung@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 석사(지역환경토목), SCJP
-                                             </p>
-                                             <p class="name_aron" style="line-height:1.5 ;">
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -796,14 +770,12 @@
                                     <div class="row">
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
-                                             <h4>성명 :김용섭 (대리)</h4>
-                                             <p>
-                                                ㆍ 입사일: 2017.12.30
+                                             <h4>성명 :김용섭 (과장)</h4>
+                                             <p class="name_aron" style="line-height:1.5 ;">
+                                                <br>ㆍ 입사일: 2017.12.30
                                                 <br>ㆍ 연락처(회사): 042-870-7337
                                                 <br>ㆍ 이메일: seobiya@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 학사(컴퓨터정보학), 기사(정보처리)
-                                             </p>
-                                             <p class="name_aron" style="line-height:1.5 ;">
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -824,13 +796,11 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 주경원 (선임연구) </h4>
-                                             <p>
-                                                ㆍ 입사일: 2022.07.11
+                                             <p class="name_aron" style="line-height:1.5 ;">
+                                                <br>ㆍ 입사일: 2022.07.11
                                                 <br>ㆍ 연락처(회사): 042-870-7340
                                                 <br>ㆍ 이메일: kwjoo@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 공학박사(토목환경공학과)
-                                             </p>
-                                             <p class="name_aron" style="line-height:1.5 ;">
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -858,14 +828,12 @@
                                     <div class="row">
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
-                                             <h4>성명 : 이소령 (사원)</h4>
-                                             <p>
-                                                ㆍ 입사일: 2022.07.11
+                                             <h4>성명 : 이소령 (대리)</h4>
+                                             <p class="name_aron" style="line-height:1.5 ;">
+                                                <br>ㆍ 입사일: 2022.07.11
                                                 <br>ㆍ 연락처(회사): 042-870-7341
                                                 <br>ㆍ 이메일: wjellygom@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 학사(프랑스문화, 융합소프트웨어), 기사(정보처리), SQLD
-                                             </p>
-                                             <p class="name_aron" style="line-height:1.5 ;">
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -886,13 +854,11 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 장현준 (사원)</h4>
-                                             <p>
-                                                ㆍ 입사일: 2022.03.02
+                                             <p class="name_aron" style="line-height:1.5 ;">
+                                                <br>ㆍ 입사일: 2022.03.02
                                                 <br>ㆍ 연락처(회사): 042-870-7685
                                                 <br>ㆍ 이메일: gapple95@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 석사(컴퓨터공학과)
-                                             </p>
-                                             <p class="name_aron" style="line-height:1.5 ;">
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -921,13 +887,11 @@
                                        <div class="col-md-6 margin_boot">
                                           <div class="test_box">
                                              <h4>성명 : 이아론 (사원)</h4>
-                                             <p>
-                                                ㆍ 입사일: 2022.05.02
+                                             <p class="name_aron" style="line-height:1.5 ;">
+                                                <br>ㆍ 입사일: 2022.05.02
                                                 <br>ㆍ 연락처(회사): 042-870-7333
                                                 <br>ㆍ 이메일: leearon@kwater.or.kr
                                                 <br>ㆍ 학위자격 : 학사(컴퓨터공학과), 기사(정보처리)
-                                             </p>
-                                             <p class="name_aron" style="line-height:1.5 ;">
                                                 <div class="name_aron">
                                                       <p style="color:#fff ;" >
                                                          - 전문분야
@@ -1084,7 +1048,7 @@
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
-
+      <script src="js/aron/top.js"></script>
       <!-- <script src="js/aron/main_me1.js"></script> -->
 
 
