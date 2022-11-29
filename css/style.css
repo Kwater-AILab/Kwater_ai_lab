@@ -457,23 +457,10 @@ ul.btn li:last-child {
 .down_btn {
      padding-left: 0px;
 }
-@media (max-width:401px){
-     .down_btn{
-          position:absolute;
-          margin-left:-58%;
-          /* background-color: #000; */
-     }
-}
-@media (max-width:418px){
-     .down_btn{
-          position:absolute;
-          margin-left:-55%;
-          /* background-color: #000; */
-     }
-}
+
 @media (max-width:498px){
      .down_btn{
-          padding-left: 80px;
+          display: block;
      }
 }
 
@@ -485,6 +472,26 @@ ul.btn li:last-child {
      border-radius: 10px;
      color: #ffffff !important;
      font-size: 17px;
+
+}
+@media (max-width:498px){
+     .down_btn a{
+          text-align: center;
+          font-size: 15px
+     }
+}
+@media (max-width:370px){
+     .down_btn a{
+          text-align: center;
+          font-size: 10px
+     }
+}
+@media (max-width:320px){
+     .down_btn a{
+          text-align: center;
+          font-size: 10px;
+          float: right
+     }
 }
 
 .down_btn a:hover {
@@ -1465,3 +1472,5 @@ ul.social_icon li a i:hover {
 #myCarousel .carousel-control-prev-icon {
      display: none;
 }
+
+/*------------------------------- 모바일_메뉴바 ---------------------------*/
