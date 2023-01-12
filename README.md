@@ -13,5 +13,7 @@ Kwater AI Lab 누리집 [바로가기](https://kwater-ailab.github.io/Kwater_ai_
   > next 버튼 추가(x)
 
 # 추가기능
-- 방문자 카운터 (●)
+- 조회수 기능 (●)
+<a href="https://khw11044.github.io/blog/githubpages/2020-12-26-making-blog-08/"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKwater-AILab%2FKwater_ai_lab&count_bg=%2379C83D&title_bg=%23D4AB42&icon=gitpod.svg&icon_color=%23E7E7E7&title=HITS+%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94+%EB%B0%A9%EB%B2%95+&edge_flat=false"/></a>
 - TOP 기능 [오른쪽 하단 버튼 누르면 HOME 이동] (●)
+
