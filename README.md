@@ -1,7 +1,7 @@
 # Kwater AI Lab homepage. <br>
 한국수자원연구원 AI연구센터 누리집 입니다. <br>
 K-water 누리집 [바로가기](https://kwater-ailab.github.io/Kwater_ai_lab/)
-
+자세한 내용 및 코드는 AI연구센터 Git-Hub에 공유 [바로가기](https://github.com/Kwater-AILab/)
 # TO DO LIST
 - 전반적인 레이아웃 재배열 (▲)
 - 화면크기에 따라 레이아웃 배열[모바일] (▲)
