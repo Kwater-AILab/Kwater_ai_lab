@@ -14,4 +14,4 @@ K-water 누리집 [바로가기](https://kwater-ailab.github.io/Kwater_ai_lab/)
 
 # 추가기능
 - 방문자 카운터 (●)
-- TOP 기능 [오른쪽 하단 버튼 누르면 HOME 가기] (●)
+- TOP 기능 [오른쪽 하단 버튼 누르면 HOME 이동] (●)
