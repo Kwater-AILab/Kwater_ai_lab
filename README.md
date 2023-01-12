@@ -1,5 +1,5 @@
-# Kwater AI Lab homepage.
-# 한국수자원연구원 AI연구센터 누리집 입니다.
+# Kwater AI Lab homepage. <br>
+한국수자원연구원 AI연구센터 누리집 입니다.
 K-water 누리집 [바로가기](https://kwater-ailab.github.io/Kwater_ai_lab/)
 # TO DO LIST
 - 전반적인 레이아웃 재배열 (ing)
@@ -9,3 +9,5 @@ K-water 누리집 [바로가기](https://kwater-ailab.github.io/Kwater_ai_lab/)
   > 카드내용 축약(x) <br>
   > 슬라이드 기능 추가(x) <br>
   > next 버튼 추가(x)
+
+#
